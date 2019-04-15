@@ -11,9 +11,17 @@ You task is to plan and build an application that displays a list of upcoming fi
 ![Screenshot of example result](images/film-releases.png)
 _Screenshot of example result_
 
-- Draw out the UI on paper, breaking it down into components.
-- Draw a component hierarchy diagram, noting down any state and props for each component.
-- Implement the application in React.
+- Draw out the UI on paper, breaking it down into components. :white_check_mark:
+>![Screenshot of UI components diagam](images/ui_components_diagram.png)
+
+
+
+
+- Draw a component hierarchy diagram, noting down any state and props for each component. :white_check_mark:
+>![Screenshot of component hierarchy diagram](images/component_hierarchy_diagram.png)
+
+
+- Implement the application in React. :white_check_mark:
 
 Note: The 'View more upcoming releases' button can link to the imdb calendar page - [https://www.imdb.com/calendar/?region=gb](https://www.imdb.com/calendar/?region=gb)
 

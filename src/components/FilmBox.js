@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import FilmList from 'FilmList';
+import FilmList from './FilmList';
 
 class FilmBox extends Component {
   constructor(props) {
@@ -40,10 +40,9 @@ class FilmBox extends Component {
       <Fragment>
         <h1>Upcoming Film Releases for the UK</h1>
         <hr></hr>
-        <FilmList data = {this.release_data}/>
+        <FilmList data = {this.release_data.data}/>
         <hr></hr>
-        <button><a href='//www.imdb.com/calendar/?region=gb'>View more upcoming release &raquo;</a></button>
-
+        <button><a href='//www.imdb.com/calendar/?region=gb' target="_blank" rel="noopener noreferrer">View more upcoming release &raquo;</a></button>
       </Fragment>
     )
 
